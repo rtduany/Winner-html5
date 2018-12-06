@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: black;
+}
+nav {
+	width: 54%;
+	margin: 0 auto;
+	padding: 20px 10px 20px 10px;
+}
+header nav a {
+	text-decoration-line: none;
+	text-align: center;
+	border: 1px solid grey;
+	margin-right: 20px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	font-size: 130%;
+}
