@@ -7,7 +7,7 @@ body {
 }
 h1 {
 	font-size: 450%;
-/*	font-weight: bolder;*/
+	font-weight:100;
 }
 h3 {
 	font-size: 150%
@@ -37,4 +37,38 @@ header nav a {
 	background-image: url(../img/bg-1.jpg);
 	height: 580px;
 	color: white;
+}
+.container {
+	width: 1260px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.three-columns {
+	display: block;
+	float: left;
+	width: 360px;
+	background-color: lightgray;
+	margin: 10px 30px 10px 30px;
+}
+#grn-btn {
+	background-color: green;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	
+	margin: 10px;
+}
+#blue-btn {
+	background-color: cornflowerblue;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin: 10px;
+}
+#red-btn {
+	background-color: darkred;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin: 10px;
 }
