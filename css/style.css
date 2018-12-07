@@ -29,6 +29,10 @@ header nav a {
 	color: white;
 	font-size: 130%;
 }
+.container {
+	width: 1260px;
+	margin: 0 auto;
+}
 /* ************************************************** section1 or front-page styles ***************************************************** */
 #section1 {
 	background-image: url(../img/bg-1.jpg);
@@ -45,10 +49,6 @@ header nav a {
 #section2 {
 	margin-top: 60px;
 	height: 520px;
-}
-.container {
-	width: 1260px;
-	margin: 0 auto;
 }
 #column1 {
 	display: block;
@@ -175,7 +175,7 @@ header nav a {
 	margin: 10px 20px 10px 280px;
 	font-size: 20px;
 }
-/* *************************************************** section4 or two-columns styles *************************************************** */
+/* ************************************************ section4 or jombotron section styles ************************************************ */
 #section4 {
 	background-image: url(../img/bg-2.jpg);
 	backface-visibility: visible;
@@ -188,14 +188,87 @@ header nav a {
 	color: white;
 	margin-top: 60px;
 }
-#jumbotron h1 {
+#jombotron h1 {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
-#jumbotron h4 {
+#jombotron h4 {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
+}
+/* ********************************************** section5 or four-columns section styles *********************************************** */
+#section5 {
+	margin-top: 60px;
+	height: 500px;
+}
+#col-5-1 {
+	display: block;
+	float: left;
+	width: 260px;
+	height: 500px;
+	background-color: lightgray;
+	margin-left: 35px;
+	margin-right: 50px;
+}
+#col-5-2 {
+	display: block;
+	float: left;
+	width: 260px;
+	height: 500px;
+	background-color: lightgray;
+	margin-right: 50px;
+}
+#col-5-3 {
+	display: block;
+	float: left;
+	width: 260px;
+	height: 500px;
+	background-color: lightgray;
+	margin-right: 50px;
+}
+#col-5-4 {
+	display: block;
+	float: right;
+	width: 260px;
+	height: 500px;
+	background-color: lightgray;
+	margin-right: 35px;
+}
+#read-it-btn {
+	background-color: whitesmoke;
+	width: 100px;
+	height: 30px;
+	padding: 4px 15px;
+	border-radius: 8px;
+	margin: 20px 80px;
+	font-size: 12px;
+}
+#details-btn {
+	background-color: whitesmoke;
+	width: 100px;
+	height: 30px;
+	padding: 4px 15px;
+	border-radius: 8px;
+	margin: 20px 80px;
+	font-size: 12px;
+}
+#h3-sec-5 {
+	margin: 10px 60px;
+	padding: 0 10px;
+}
+#col-5-1 p {
+	margin: 10px 20px;
+}
+#col-5-2 p {
+	margin: 10px 20px;
 }
 
+#col-5-3 p {
+	margin: 10px 20px;
+}
+
+#col-5-4 p {
+	margin: 10px 20px;
+}
