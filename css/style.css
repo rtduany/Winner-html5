@@ -37,6 +37,8 @@ header nav a {
 #section1 {
 	background-image: url(../img/bg-1.jpg);
 	color: white;
+	background-position: left bottom;
+	background-attachment: fixed;
 }
 #front-page {
 	height: 620px;
@@ -179,6 +181,7 @@ header nav a {
 #section4 {
 	background-image: url(../img/bg-2.jpg);
 	backface-visibility: visible;
+	background-attachment: fixed;
 	width: 100%;
 	height: 400px;
 	display: flex;
@@ -305,20 +308,21 @@ header nav a {
 #section7 {
 	background-image: url(../img/bg-3.jpg);
 	backface-visibility: visible;
+	background-attachment: fixed;
+	width: 100%;
 	height: 600px;
 	margin-top: 60px;
 }
 #form-section {
 	padding-top: 160px;
-}
-#form-txt {
 	width: 50%;
 	margin: 0 auto;
+}
+#form-txt {
 	text-align: center;
 }
 form {
 	display: block;
-	width: 50%;
 	margin: 0 auto;
 }
 #form-txt h3 {
@@ -326,19 +330,23 @@ form {
 }
 #form-txt p {
 	background: rgb(255, 255, 255, 0.4);
+	padding: 20px;
+	border-radius: 5px;
 }
 #form-inputs {
 	float: left;
 }
-
 #form-inputs input {
 	background: rgb(255, 255, 255, 0.4);
-	width: 250px;
+	width: 305px;
 	height: 30px;
+	border-radius: 5px;
 }
 #message {
 	background: rgb(255, 255, 255, 0.4);
-	width: 250px;
+	width: 305px;
+	height: auto;
+	border-radius: 5px;
 }
 #form-txt-area {
 	float: right;
@@ -349,4 +357,20 @@ form {
 	background-color: black;
 	color: white;
 	border-radius: 10px;
+}
+/* *************************************************** section8 or footer section styles ************************************************ */
+#section8 {
+	width: 100%;
+}
+#last-section {
+	width: 27%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+footer {
+	width: 27%;
+	margin: 0 auto;
+	text-align: center;
+	padding:  20px 0 20px 0;
 }
