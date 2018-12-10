@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body {
-	font-family: "times new roman", "courier new", sans-serif;
+	font-family: arial, "courier new", serif;
 }
 h1 {
 	font-size: 450%;
@@ -29,9 +29,19 @@ header nav a {
 	color: white;
 	font-size: 130%;
 }
+nav a:hover {
+	background-color: #1a1a1a;
+}
+.active {
+	background-color: #1a1a1a;
+	border: 1px dotted white;
+}
 .container {
-	width: 1260px;
+	width: 86.6%;
 	margin: 0 auto;
+}
+.container-fluid {
+	width: 100%;
 }
 /* ************************************************** section1 or front-page styles ***************************************************** */
 #section1 {
@@ -56,22 +66,25 @@ header nav a {
 	display: block;
 	float: left;
 	width: 360px;
+	height: inherit;
 	background-color: lightgray;
-	margin-left: 45px;
+	margin-left: 0;
 }
 #column2 {
 	display: block;
 	float: left;
 	width: 360px;
+	height: inherit;
 	background-color: lightgray;
-	margin: 0 45px;
+	margin-left: 25px;
 }
 #column3 {
 	display: block;
 	float: right;
 	width: 360px;
+	height: inherit;
 	background-color: lightgray;
-	margin-right: 45px;
+	margin-right: 0;
 }
 #column1 h3 {
 	font-size: 150%;
@@ -85,17 +98,9 @@ header nav a {
 	font-size: 150%;
 	padding: 0 12px;
 }
-#column1 p {
+.p-3-cols {
 	font-size: 110%;
-	padding: 0 12px;
-}
-#column2 p {
-	font-size: 110%;
-	padding: 0 12px;
-}
-#column3 p {
-	font-size: 110%;
-	padding: 0 12px;
+	padding: 0 17px;
 }
 #bootstrap {
 	margin: 30px 0;
@@ -144,29 +149,27 @@ header nav a {
 	margin-top: 60px;
 	height: 600px;
 }
-.two-columns {
+#left-column {
 	display: block;
 	float: left;
 	width: 556px;
-	height: 600px;
+	height: inherit;
 	background-color: lightgray;
-	margin: 0 30px;
-}
-#left-column {
-	margin-left: 40px;
 }
 #right-column {
-	margin-left: 40px;
+	display: block;
+	float: right;
+	width: 556px;
+	height: inherit;
+	background-color: lightgray;
 }
-.two-columns h3 {
+.two-columns h2 {
 	font-size: 150%;
-	margin: 20px 142px;
-	padding: 0 12px;
+	margin: 20px 144px;
 }
 .two-columns p {
 	font-size: 100%;
-	margin: 20px 40px;
-	padding: 0 12px;
+	margin: 20px;
 }
 #read-btn {
 	background-color: whitesmoke;
@@ -182,7 +185,6 @@ header nav a {
 	background-image: url(../img/bg-2.jpg);
 	backface-visibility: visible;
 	background-attachment: fixed;
-	width: 100%;
 	height: 400px;
 	display: flex;
 	align-items: center;
@@ -201,85 +203,46 @@ header nav a {
 	margin: 0 auto;
 	text-align: center;
 }
-/* ********************************************** section5 or four-columns section styles *********************************************** */
+/* *********************************************** section5 or four-columns section styles ********************************************** */
 #section5 {
 	margin-top: 60px;
 	height: 500px;
 }
-#col-5-1 {
+.left-3-cols {
 	display: block;
 	float: left;
 	width: 260px;
-	height: 500px;
+	height: inherit;
 	background-color: lightgray;
-	margin-left: 35px;
-	margin-right: 50px;
+	margin-right: 29.6px;
 }
-#col-5-2 {
-	display: block;
-	float: left;
-	width: 260px;
-	height: 500px;
-	background-color: lightgray;
-	margin-right: 50px;
-}
-#col-5-3 {
-	display: block;
-	float: left;
-	width: 260px;
-	height: 500px;
-	background-color: lightgray;
-	margin-right: 50px;
-}
-#col-5-4 {
+.right-1-col {
 	display: block;
 	float: right;
 	width: 260px;
-	height: 500px;
+	height: inherit;
 	background-color: lightgray;
-	margin-right: 35px;
+	margin-right: 0;
 }
-#read-it-btn {
+.four-cols-btn {
 	background-color: whitesmoke;
-	width: 100px;
-	height: 30px;
+	width: 120px;
+	height: 45px;
 	padding: 4px 15px;
 	border-radius: 8px;
 	margin: 20px 80px;
-	font-size: 12px;
-}
-#details-btn {
-	background-color: whitesmoke;
-	width: 100px;
-	height: 30px;
-	padding: 4px 15px;
-	border-radius: 8px;
-	margin: 20px 80px;
-	font-size: 12px;
+	font-size: 18px;
 }
 #h3-sec-5 {
-	margin: 10px 60px;
-	padding: 0 10px;
+	margin: 20px 60px;
 }
-#col-5-1 p {
+.p-sec-5 {
 	margin: 10px 20px;
 }
-#col-5-2 p {
-	margin: 10px 20px;
-}
-
-#col-5-3 p {
-	margin: 10px 20px;
-}
-
-#col-5-4 p {
-	margin: 10px 20px;
-}
-/* ********************************************** section6 or four-columns section styles *********************************************** */
+/* *********************************************** section6 or one big picture section styles ******************************************* */
 #section6 {
 	background-color: lightgray;
 	margin-top: 60px;
-	width: 1140px;
 	height: 780px;
 }
 #sec-6-col {
@@ -287,6 +250,7 @@ header nav a {
 	margin: 0 auto;
 }
 #img-4-5 {
+	width: 99%;
 	margin-bottom: 40px;
 }
 #sec-6-col h3 {
@@ -309,13 +273,12 @@ header nav a {
 	background-image: url(../img/bg-3.jpg);
 	backface-visibility: visible;
 	background-attachment: fixed;
-	width: 100%;
 	height: 600px;
 	margin-top: 60px;
 }
 #form-section {
-	padding-top: 160px;
-	width: 50%;
+	padding-top: 120px;
+	width: 42%;
 	margin: 0 auto;
 }
 #form-txt {
@@ -325,8 +288,9 @@ form {
 	display: block;
 	margin: 0 auto;
 }
-#form-txt h3 {
+#form-txt h1 {
 	color: white;
+	font-size: 220%;
 }
 #form-txt p {
 	background: rgb(255, 255, 255, 0.4);
@@ -338,15 +302,18 @@ form {
 }
 #form-inputs input {
 	background: rgb(255, 255, 255, 0.4);
-	width: 305px;
+	width: 248px;
 	height: 30px;
 	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 }
 #message {
 	background: rgb(255, 255, 255, 0.4);
-	width: 305px;
+	width: 248px;
 	height: auto;
 	border-radius: 5px;
+	padding: 10px 0 0 10px;
 }
 #form-txt-area {
 	float: right;
@@ -360,17 +327,14 @@ form {
 }
 /* *************************************************** section8 or footer section styles ************************************************ */
 #section8 {
-	width: 100%;
+	color: grey;
 }
-#last-section {
-	width: 27%;
+.footer-section {
+	width: 28%;
 	margin: 0 auto;
 	text-align: center;
 	padding: 50px 0 50px 0;
 }
-footer {
-	width: 27%;
-	margin: 0 auto;
-	text-align: center;
-	padding:  20px 0 20px 0;
+.footer-section h2 {
+	margin-bottom: 30px;
 }
